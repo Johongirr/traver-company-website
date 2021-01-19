@@ -1,0 +1,620 @@
+/* ============ Margin ============ */
+    /* margins top */
+    .mt-1 {
+        margin-top: 1rem;
+    }
+    .mt-2 {
+        margin-top: 2rem;
+    }
+    .mt-3 {
+        margin-top: 3rem;
+    }
+    .mt-4 {
+        margin-top: 4rem;
+    }
+    .mt-5 {
+        margin-top: 5rem;
+    }
+        /* margins bottom */
+    .mb-1 {
+        margin-bottom: 1rem;
+    }
+    .mb-2 {
+        margin-bottom: 2rem;
+    }
+    .mb-3 {
+        margin-bottom: 3rem;
+    }
+    .mb-4 {
+        margin-bottom: 4rem;
+    }
+    .mb-5 {
+        margin-bottom: 5rem;
+    }
+    
+    /* margins left */
+    .ml-1 {
+        margin-left: 1rem;
+    }
+    .ml-2 {
+        margin-left: 2rem;
+    }
+    .ml-3 {
+        margin-left: 3rem;
+    }
+    .ml-4 {
+        margin-left: 4rem;
+    }
+    .ml-5 {
+        margin-left: 5rem;
+    }
+    
+    /* margins right */
+    .mr-1 {
+        margin-right: 1rem;
+    }
+    .mr-2 {
+        margin-right: 2rem;
+    }
+    .mr-3 {
+        margin-right: 3rem;
+    }
+    .mr-4 {
+        margin-right: 4rem;
+    }
+    .mr-5 {
+        margin-right: 5rem;
+    }
+    /* margins horizontal */
+    .mx-1 {
+        margin: 0  1rem;
+    }
+    .mx-2 {
+        margin: 0  2rem;
+    }
+    .mx-3 {
+        margin: 0  3rem;
+    }
+    .mx-4 {
+        margin: 0  4rem;
+    }
+    .mx-5 {
+        margin: 0  5rem;
+    }
+    /* margins vertical */
+    .my-1 {
+        margin: 1rem 0;
+    }
+    .my-2 {
+        margin: 2rem 0;
+    }
+    .my-3 {
+        margin: 3rem 0;
+    }
+    .my-4 {
+        margin: 4rem 0;
+    }
+    .my-5 {
+        margin: 5rem 0;
+    }
+    
+    /* margins all four side */
+    .m-1 {
+        margin: 1rem;
+    }
+    .m-2 {
+        margin: 2rem;
+    }
+    .m-3 {
+        margin: 3rem;
+    }
+    .m-4 {
+        margin: 4rem;
+    }
+    .m-5 {
+        margin: 5rem;
+    }
+    
+    
+    /* ============= Padding ============== */
+    /* padding */
+        /* padding top */
+    .pt-1 {
+        padding-top: 1rem;
+    }
+    .pt-2 {
+        padding-top: 2rem;
+    }
+    .pt-3 {
+        padding-top: 3rem;
+    }
+    .pt-4 {
+        padding-top: 4rem;
+    }
+    .pt-5 {
+        padding-top: 5rem;
+    }
+        /* padding bottom */
+    .pb-1 {
+        padding-bottom: 1rem;
+    }
+    .pb-2 {
+        padding-bottom: 2rem;
+    }
+    .pb-3 {
+        padding-bottom: 3rem;
+    }
+    .pb-4 {
+        padding-bottom: 4rem;
+    }
+    .pb-5 {
+        padding-bottom: 5rem;
+    }
+    
+    /* padding left */
+    .pl-1 {
+        padding-left: 1rem;
+    }
+    .pl-2 {
+        padding-left: 2rem;
+    }
+    .pl-3 {
+        padding-left: 3rem;
+    }
+    .pl-4 {
+        padding-left: 4rem;
+    }
+    .pl-5 {
+        padding-left: 5rem;
+    }
+    
+    /* padding right */
+    .pr-1 {
+        padding-right: 1rem;
+    }
+    .pr-2 {
+        padding-right: 2rem;
+    }
+    .pr-3 {
+        padding-right: 3rem;
+    }
+    .pr-4 {
+        padding-right: 4rem;
+    }
+    .pr-5 {
+        padding-right: 5rem;
+    }
+    /* padding horizontal */
+    .px-1 {
+        padding: 0  1rem;
+    }
+    .px-2 {
+        padding: 0  2rem;
+    }
+    .px-3 {
+        padding: 0  3rem;
+    }
+    .px-4 {
+        padding: 0  4rem;
+    }
+    .px-5 {
+        padding: 0  5rem;
+    }
+    /* padding vertical */
+    .py-1 {
+        padding: 1rem 0;
+    }
+    .py-2 {
+        padding: 2rem 0;
+    }
+    .py-3 {
+        padding: 3rem 0;
+    }
+    .py-4 {
+        padding: 4rem 0;
+    }
+    .py-5 {
+        padding: 5rem 0;
+    }
+    
+    /* padding all four side */
+    .p-1 {
+        padding: 1rem;
+    }
+    .p-2 {
+        padding: 2rem;
+    }
+    .p-3 {
+        padding: 3rem;
+    }
+    .p-4 {
+        padding: 4rem;
+    }
+    .p-5 {
+        padding: 5rem;
+    }
+    /* ======= CSS Variables ======== */
+    :root {
+        --blue: #007bff;
+        --indigo: #6610f2;
+        --purple: #6f42c1;
+        --pink: #e83e8c;
+        --red: #dc3545;
+        --orange: #fd7e14;
+        --yellow: #ffc107;
+        --green: #28a745;
+        --teal: #20c997;
+        --cyan: #17a2b8;
+        --white: #fff;
+        --gray: #6c757d;
+        --gray-dark: #343a40;
+        --primary: #007bff;
+        --secondary: #6c757d;
+        --success: #28a745;
+        --info: #17a2b8;
+        --warning: #ffc107;
+        --danger: #dc3545;
+        --light: #f8f9fa;
+        --dark: #343a40;
+        --title-color: #0e132a;
+        --secondary-color: #161e46;
+        --text-light-gray: #a4acc3;
+        --text-medium-gray: #9fa6bd;
+        --text-dark-gray: #868c98;
+        --transition-services: all .5s;
+        --breakpoint-xs: 0;
+        --breakpoint-sm: 576px;
+        --breakpoint-md: 768px;
+        --breakpoint-lg: 992px;
+        --breakpoint-xl: 1200px;
+        --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    }
+    /* ============== Colors ============== */
+        /* background colours */
+    .bg--blue {
+        background-color: var(--blue);
+    }
+    .bg--indigo {
+        background-color: var(--indigo);
+    }
+    .bg--purple {
+        background-color: var(--purple);
+    }
+    .bg--pink {
+        background-color: var(--pink);
+    }
+    .bg--red {
+        background-color: var(--red);
+    }
+    .bg--orange {
+        background-color: var(--orange);
+    }
+    .bg--yellow {
+        background-color: var(--yellow);
+    }
+    .bg--green {
+        background-color: var(--green);
+    }
+    .bg--teal {
+        background-color: var(--teal);
+    }
+    .bg--cyan {
+        background-color: var(--cyan);
+    }
+    .bg--white {
+        background-color: var(--white);
+    }
+    .bg--gray {
+        background-color: var(--gray);
+    }
+    .bg--gray-dark {
+        background-color: var(--gray-dark);
+    }
+    .bg--primary {
+        background-color: var(--primary);
+    }
+    .bg--secondary {
+        background-color: var(--secondary);
+    }
+    .bg--success {
+        background-color: var(--success);
+    }
+    .bg--info {
+        background-color: var(--info);
+    }
+    .bg--warning {
+        background-color: var(--warning);
+    }
+    .bg--danger {
+        background-color: var(--danger);
+    }
+    .bg--light {
+        background-color: var(--light);
+    }
+    .bg--dark {
+        background-color: var(--dark);
+    }
+        
+        /* text colours */
+    
+    .text--blue {
+        color: var(--blue);
+    }
+    .text--indigo {
+        color: var(--indigo);
+    }
+    .text--dark-title {
+        color: var(--secondary-color);
+    }
+    .text--purple {
+        color: var(--purple);
+    }
+    .text--pink {
+        color: var(--pink);
+    }
+    .text--red {
+        color: var(--red);
+    }
+    .text--orange {
+        color: var(--orange);
+    }
+    .text--yellow {
+        color: var(--yellow);
+    }
+    .text--green {
+        color: var(--green);
+    }
+    .text--teal {
+        color: var(--teal);
+    }
+    .text--cyan {
+        color: var(--cyan);
+    }
+    .text--white {
+        color: var(--white);
+    }
+    .text--gray {
+        color: var(--gray);
+    }
+    .text--gray-dark {
+        color: var(--gray-dark);
+    }
+    .text--primary {
+        color: var(--primary);
+    }
+    .text--secondary {
+        color: var(--secondary);
+    }
+    .text--success {
+        color: var(--success);
+    }
+    .text--info {
+        color: var(--info);
+    }
+    .text--warning {
+        color: var(--warning);
+    }
+    .text--danger {
+        color: var(--danger);
+    }
+    .text--light {
+        color: var(--light);
+    }
+    .text--dark {
+        color: var(--dark);
+    }
+     
+    
+    /* ============ Text size ================== */
+    .text-sz-0 {
+        font-size: 0.9rem;
+    }
+    .text-sz-1 {
+        font-size: 1rem;
+    }
+    .text-sz-2 {
+        font-size: 2rem;
+    }
+    .text-sz-3 {
+        font-size: 3rem;
+    }
+    .text-sz-4 {
+        font-size: 4rem;
+    }
+    .text-sz-5 {
+        font-size: 5rem;
+    }
+    
+    /* ====================== text align left right center =========================== */
+    .text--center {
+        text-align: center;
+    }
+    .text--right {
+        text-align: right;
+    }
+    .text--left {
+        text-align: left;
+    }
+    
+    /* ================= Display inline inline-block block ======================== */
+    .d--block {
+        display: block;
+    }
+    .d--inline-block {
+        display: inline-block;
+    }
+    .d--inline {
+        display: inline;
+    }
+    
+    /* =============== CSS Grid ================== */
+    .grid {
+        display: grid;
+    }
+    .grid-column-xl-4 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .grid-column-xl-3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .grid-column-xl-2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+        /* grid gap */
+    .grid-gap-1 {
+        grid-gap: 1rem;
+    }
+    .grid-gap-2 {
+        grid-gap: 2rem;
+    }
+    .grid-gap-3 {
+        grid-gap: 3rem;
+    }
+    .grid-gap-4 {
+        grid-gap: 4rem;
+    }
+    .grid-gap-5 {
+        grid-gap: 5rem;
+    }
+    
+    /* ================ Flexbox ==================== */
+    .flex {
+        display: flex;
+    }
+        /* justify content */
+    .flex--justify-content-start {
+        justify-content: flex-start;
+    }
+    .flex--justify-content-end {
+        justify-content: flex-end;
+    }
+    .flex--justify-content-center {
+        justify-content: center;
+    }
+    .flex--justify-content-between {
+        justify-content: space-between;
+    }
+    .flex--justify-content-evenly {
+        justify-content: space-evenly;
+    }
+    .flex--justify-content-around {
+        justify-content: space-around;
+    }
+    
+        /* align content */
+    .flex--align-content-start {
+        align-content: flex-start;
+    }
+    .flex--align-content-end {
+        align-content: flex-end;
+    }
+    .flex--align-content-center {
+        align-content: center;
+    }
+    .flex--align-content-between {
+        align-content: space-between;
+    }
+    .flex--align-content-evenly {
+        align-content: space-evenly;
+    }
+    .flex--align-content-around {
+        align-content: space-around;
+    }
+    .flex--align-content-center {
+        align-content: center;
+    }
+    
+        /* align items */
+    .flex--align-items-center {
+        align-items: center;
+    }
+    .flex--align-items-start {
+        align-items: flex-end;
+    }
+    .flex--align-items-end {
+        align-items: flex-end;
+    }
+    .flex--align-items-baseline {
+        align-items: baseline;
+    }
+    
+        /* flex column gap */
+    .flex-column-gap-1 {
+        column-gap: 1rem;
+    }
+    .flex-column-gap-2 {
+        column-gap: 2rem;
+    }
+    .flex-column-gap-3 {
+        column-gap: 3rem;
+    }
+    .flex-column-gap-4 {
+        column-gap: 4rem;
+    }
+    .flex-column-gap-5 {
+        column-gap: 5rem;
+    }
+        /* flex row gap */
+    .flex-row-gap-1 {
+        row-gap: 1rem;
+    }
+    .flex-row-gap-2 {
+        row-gap: 2rem;
+    }
+    .flex-row-gap-3 {
+        row-gap: 3rem;
+    }
+    .flex-row-gap-4 {
+        row-gap: 4rem;
+    }
+    .flex-row-gap-5 {
+        row-gap: 5rem;
+    }
+    
+        /* flex gap */
+    .flex-gap-1 {
+        gap: 1rem;
+    }
+    .flex-gap-2 {
+        gap: 2rem;
+    }
+    .flex-gap-3 {
+        gap: 3rem;
+    }
+    .flex-gap-4 {
+        gap: 4rem;
+    }
+    .flex-gap-5 {
+        gap: 5rem;
+    }
+    
+        /* flex wrap */
+    .flex--nowrap {
+        flex-wrap: nowrap;
+    }
+    .flex--wrap {
+        flex-wrap: wrap;
+    }
+    .flex--wrap-reverse {
+        flex-wrap: wrap-reverse;
+    }
+        /* flex column */
+    .flex--direction-column {
+        flex-direction: column;
+    }
+    
+    
+        /* flex grow */
+    .flex--grow-1{
+        flex-grow: 1;
+    }
+        /* width */
+    .width--100 {
+        width: 100%;
+    }
+
+    /* positioning */
+    .relative {
+        position: relative;
+    }

@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/uitilities.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Travel Company Website</title>
+</head>
+<body>
+    <!-- mobile menu -->
+    <div class="mobile-menu">
+        <div class="mobile-menu__close">
+            <div class="mobile-menu__line mobile-menu__line-1"></div>
+            <div class="mobile-menu__line mobile-menu__line-2"></div>
+        </div>
+        <nav class="mobile-menu__nav">
+            <ul class="mobile-menu__list">
+                <li class="mobile-menu__item">
+                    <a href="#" class="mobile-menu__link active">
+                        Home
+                    </a>
+                </li>
+                <li class="mobile-menu__item pr-2">
+                    <a href="#" class="mobile-menu__link">
+                        Dropdown
+                    </a>
+                     <span class="arrow-down subMenu-1 collapse-1">></span>
+                    <ul class="mobile-menu__submenu-1 ml-1">
+                        <li class="mobile-menu__item">
+                            <a href="#" class="mobile-menu__link">
+                                Elements
+                            </a>
+                        </li>
+                        <li class="mobile-menu__item">
+                            <a href="#" class="mobile-menu__link">
+                                Menu One
+                            </a>
+                        </li>
+                        <li class="mobile-menu__item">
+                            <a href="#" class="mobile-menu__link">
+                                Menu Two
+                            </a>
+                            <span class="arrow-down collapse-2">></span>
+                            <ul class="mobile-menu__submenu-2 ml-1">
+                                <li class="mobile-menu__item">
+                                    <a href="#" class="mobile-menu__link">
+                                        Sub Menu One
+                                    </a>
+                                </li>
+                                <li class="mobile-menu__item">
+                                    <a href="#" class="mobile-menu__link">
+                                        Sub Menu Two
+                                    </a>
+                                </li>
+                                <li class="mobile-menu__item">
+                                    <a href="#" class="mobile-menu__link">
+                                        Sub Menu Three
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="mobile-menu__item">
+                            <a href="#" class="mobile-menu__link">
+                                Menu Three
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="mobile-menu__item">
+                    <a href="#" class="mobile-menu__link">
+                        Services
+                    </a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a href="#" class="mobile-menu__link">
+                        About
+                    </a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a href="#" class="mobile-menu__link">
+                        Contact Us
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- header -->
+    <header class="header">
+        <div class="container">
+            <nav class="header__nav flex flex--justify-content-between flex--align-items-center">
+                <a href="#" class="header__logo">
+                    Travel 
+                    <span class="header__logo-dot">
+                        .
+                    </span>
+                </a>
+                <ul class="header__nav-list flex">
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link text--white">
+                            Home
+                        </a>
+                    </li>
+                    <li class="header__nav-item dropdown-1 relative">
+                        <a href="#" class="header__nav-link">
+                            Dropdown <span class="arrow-down">></span>
+                        </a>
+                        <div class="header__nav-submenu-card-1">
+                            <ul class="header__dropdown-list-1">
+                                <li class="header__dropdown-item">
+                                    <a href="#" class="header__dropdown-link">
+                                        Elements
+                                    </a>
+                                </li>
+                                <li class="header__dropdown-item">
+                                    <a href="#" class="header__dropdown-link">
+                                        Menu One
+                                    </a>
+                                </li>
+                                <li class="header__dropdown-item dropdown-2 relative">
+                                    <a href="#" class="header__dropdown-link clearfix">
+                                        Menu Two 
+                                        <span class="arrow-right">
+                                            >
+                                        </span>
+                                    </a>
+                                    <div class="header__nav-submenu-card-2">
+                                        <ul class="header__dropdown-list-2">
+                                            <li class="header__dropdown-item">
+                                                <a href="#" class="header__dropdown-link">
+                                                    Submenu One
+                                                </a>
+                                            </li>
+                                            <li class="header__dropdown-item">
+                                                <a href="#" class="header__dropdown-link">
+                                                    Submenu Two
+                                                </a>    
+                                            </li>
+                                            <li class="header__dropdown-item">
+                                                <a href="#" class="header__dropdown-link">
+                                                    Submenu Three
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="header__dropdown-item">
+                                    <a href="#" class="header__dropdown-link">
+                                        Menu Three
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>   
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link">
+                            Services
+                        </a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link">
+                            About
+                        </a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link">
+                            Contact Us
+                        </a>
+                    </li>
+                </ul>
+                <div class="hamburger-menu">
+                    <div class="hamburger-line hamburger-line-top"></div>
+                    <div class="hamburger-line"></div>
+                    <div class="hamburger-line hamburger-line-bottom"></div>
+                </div>
+            </nav>
+            <!-- header text box -->
+            <div class="header__text-box">
+                <h1 class="header__title">
+                    Travel to the most beautiful places in the world, like Colloseum
+                </h1>
+                <button class="btn header__btn">
+                    Contact Us
+                </button>
+            </div>
+            <!-- header book trip form-->
+            <div class="header__book-container">
+                <form action="#" class="header__form">
+                    <div class="row grid grid-column-xl-4 grid-column-md-2 grid-column-sm-1">
+                        <div class="form-control">
+                            <select name="destination"  required>
+                                <option value="Peru">Peru</option>
+                                <option value="Thailand">Thailand</option>
+                                <option value="Uzbekistan">Uzbekistan</option>
+                                <option value="Japan">Japan</option>
+                                <option value="Poland">Poland</option>
+                                <option value="Russia">Russia</option>
+                                <option value="Kazakhstan">Kazakhstan</option>
+                                <option value="Kyrgyzstan">Kyrgyzstan</option>
+                                <option value="Azarbaijan">Azarbaijan</option>
+                            </select>
+                        </div>
+                        <div class="form-control flex">
+                            <input type="date" name="date" value="2021-01-22" required > 
+                            <span>/</span>
+                            <input type="date" name="date" value="2021-01-23" required> 
+                        </div>
+                        <div class="form-control">
+                            <input type="number" name="amount" placeholder="Enter # of People">
+                        </div>
+                        <button class="header__form btn">
+                            Search
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </header>
+    <!-- main section of the page -->
+    <main class="main">
+        <!-- popular destination -->
+        <section class="popular-destination">
+            <div class="container">
+                <div class="row grid grid-column-xl-3">
+                    <div href="#" class="popular-destination__card card"></div>
+                    <div href="#" class="popular-destination__card card"></div>
+                    <div href="#" class="popular-destination__card card"></div>
+                </div>
+            </div>
+        </section>
+        <!-- special offers and discounts -->
+        <section class="special-offers">
+            <div class="container">
+                <div class="row grid grid-column-xl-4 grid-column-md-2 grid-gap-2">
+                    <div class="special-offers__card"></div>
+                    <div class="special-offers__card"></div>
+                    <div class="special-offers__card"></div>
+                    <div class="special-offers__card"></div>
+                </div>
+            </div>
+        </section>
+        <!-- offer preview -->
+        <section class="offer-preview">
+            <div class="container">
+                <div class="row grid grid-column-xl-2 grid-gap-1 px-4">
+                    <article class="offer-preview__text">
+
+                    </article>
+                    <figure class="offer-preview__video">
+
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <!-- stats -->
+        <section class="stats">
+            <div class="container">
+                <div class="row flex flex-wrap-md">
+                    <div class="stats__output"></div>
+                    <div class="stats__output"></div>
+                    <div class="stats__output"></div>
+                    <div class="stats__output"></div>
+                </div>
+            </div>
+        </section>
+        <!-- services -->
+        <section class="services">
+            <div class="container">
+                <div class="row grid services__diff-col grid-column-md-1  grid-gap-2">
+                    <div class="services__bg-img"></div>
+                    <div class="services__info">
+                        <div class="row grid grid-column-xl-2 grid-gap-2">
+                            <div class="services__card"></div>
+                            <div class="services__card"></div>
+                            <div class="services__card"></div>
+                            <div class="services__card"></div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <!-- contact us -->
+        <footer class="contact-us">
+            <div class="contact-us__text-box">
+
+            </div>
+        </footer>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row grid grid-column-xl-3 grid-column-md-2 grid-column-sm-1 grid-gap-2">
+                <div class="footer__about-travel">
+
+                </div>
+                <div class="footer__menu">
+
+                </div>
+                <div class="footer__contact-info">
+
+                </div>
+            </div>
+            <div class="footer__copyright-and-terms">
+                <small class="footer__copyright">
+
+                </small>
+                <ul class="footer__terms-list">
+
+                </ul>
+
+            </div>
+        </div>
+    </footer>
+    
+    
+    <script async src="index.js"></script>
+</body>
+</html>
