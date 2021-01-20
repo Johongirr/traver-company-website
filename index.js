@@ -37,7 +37,7 @@ const toggleSubMenu2 = (e)=>{
 }
 
 const toggleMenu = ()=>{
-    
+    console.log(2112)
     if(!isMenOpen){
         console.log("IT'S WORKING!!!!");
         
@@ -59,6 +59,9 @@ collapseBtn1.addEventListener('click', toggleSubMenu1);
 collapseBtn2.addEventListener('click', toggleSubMenu2);
 openMenuBtn.addEventListener('click', toggleMenu);
 
+
+
+// accordion related code 
 const accordionToggleBtns = document.querySelectorAll('.about-us__accordion-toggle');
 
 accordionToggleBtns.forEach(toggleBtn => toggleBtn.addEventListener('click', (e)=>{
