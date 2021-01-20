@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/uitilities.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>About Us</title>
+</head>
+<body>
+     <!-- mobile menu -->
+     <div class="mobile-menu">
+        <div class="mobile-menu__close">
+            <div class="mobile-menu__line mobile-menu__line-1"></div>
+            <div class="mobile-menu__line mobile-menu__line-2"></div>
+        </div>
+        <nav class="mobile-menu__nav">
+            <ul class="mobile-menu__list">
+                <li class="mobile-menu__item">
+                    <a href="index.html" class="mobile-menu__link active">
+                        Home
+                    </a>
+                </li>
+                <li class="mobile-menu__item pr-2">
+                    <a href="#" class="mobile-menu__link">
+                        Dropdown
+                    </a>
+                     <span class="arrow-down subMenu-1 collapse-1">></span>
+                    <ul class="mobile-menu__submenu-1 ml-1">
+                        <li class="mobile-menu__item">
+                            <a href="#" class="mobile-menu__link">
+                                Elements
+                            </a>
+                        </li>
+                        <li class="mobile-menu__item">
+                            <a href="#" class="mobile-menu__link">
+                                Menu One
+                            </a>
+                        </li>
+                        <li class="mobile-menu__item">
+                            <a href="#" class="mobile-menu__link">
+                                Menu Two
+                            </a>
+                            <span class="arrow-down collapse-2">></span>
+                            <ul class="mobile-menu__submenu-2 ml-1">
+                                <li class="mobile-menu__item">
+                                    <a href="#" class="mobile-menu__link">
+                                        Sub Menu One
+                                    </a>
+                                </li>
+                                <li class="mobile-menu__item">
+                                    <a href="#" class="mobile-menu__link">
+                                        Sub Menu Two
+                                    </a>
+                                </li>
+                                <li class="mobile-menu__item">
+                                    <a href="#" class="mobile-menu__link">
+                                        Sub Menu Three
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="mobile-menu__item">
+                            <a href="#" class="mobile-menu__link">
+                                Menu Three
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="mobile-menu__item">
+                    <a href="services.html" class="mobile-menu__link">
+                        Services
+                    </a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a href="about-us.html" class="mobile-menu__link">
+                        About
+                    </a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a href="contact.html" class="mobile-menu__link">
+                        Contact Us
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- header -->
+    <header class="header" id="about-us-img">
+        <div class="container">
+            <nav class="header__nav flex flex--justify-content-between flex--align-items-center">
+                <a href="#" class="header__logo">
+                    Travel 
+                    <span class="header__logo-dot">
+                        .
+                    </span>
+                </a>
+                <ul class="header__nav-list flex">
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link text--white">
+                            Home
+                        </a>
+                    </li>
+                    <li class="header__nav-item dropdown-1 relative">
+                        <a href="#" class="header__nav-link">
+                            Dropdown <span class="arrow-down">></span>
+                        </a>
+                        <div class="header__nav-submenu-card-1">
+                            <ul class="header__dropdown-list-1">
+                                <li class="header__dropdown-item">
+                                    <a href="#" class="header__dropdown-link">
+                                        Elements
+                                    </a>
+                                </li>
+                                <li class="header__dropdown-item">
+                                    <a href="#" class="header__dropdown-link">
+                                        Menu One
+                                    </a>
+                                </li>
+                                <li class="header__dropdown-item dropdown-2 relative">
+                                    <a href="#" class="header__dropdown-link clearfix">
+                                        Menu Two 
+                                        <span class="arrow-right">
+                                            >
+                                        </span>
+                                    </a>
+                                    <div class="header__nav-submenu-card-2">
+                                        <ul class="header__dropdown-list-2">
+                                            <li class="header__dropdown-item">
+                                                <a href="#" class="header__dropdown-link">
+                                                    Submenu One
+                                                </a>
+                                            </li>
+                                            <li class="header__dropdown-item">
+                                                <a href="#" class="header__dropdown-link">
+                                                    Submenu Two
+                                                </a>    
+                                            </li>
+                                            <li class="header__dropdown-item">
+                                                <a href="#" class="header__dropdown-link">
+                                                    Submenu Three
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="header__dropdown-item">
+                                    <a href="#" class="header__dropdown-link">
+                                        Menu Three
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>   
+                    <li class="header__nav-item">
+                        <a href="services.html" class="header__nav-link">
+                            Services
+                        </a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link">
+                            About
+                        </a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="contact.html" class="header__nav-link">
+                            Contact Us
+                        </a>
+                    </li>
+                </ul>
+                <div class="hamburger-menu">
+                    <div class="hamburger-line hamburger-line-top"></div>
+                    <div class="hamburger-line"></div>
+                    <div class="hamburger-line hamburger-line-bottom"></div>
+                </div>
+            </nav>
+            <!-- header text box -->
+            <div class="header__text-box">
+                <h1 class="header__title mb-0">
+                    About us
+                   
+                </h1>
+                <p class="header__paragraph mt-1">
+                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocea
+                </p>
+                <button class="btn  mt-1">
+                    Get Started
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- main -->
+    <main class="main">
+        <!-- about us -->
+        <section class="about-us">
+            <div class="container">
+                <div class="about-us__text-box">
+                    <h2 class="about-us__title mb-1">
+                    Why Choose Us
+                </h2>
+                <div class="hr__line">
+                </div>
+
+                </div>
+                <div class="row grid grid-gap-2 grid-column-xl-3 grid-column-md-2 grid-column-sm-1 mt-3">
+                    <div class="about-us__container ">                        
+                            <div href="#" class="about-us__accordion-toggle mt-8" id="ac-1">
+                                <span class="accordion__plus">+</span>
+                                <span class="about-us__text">
+                                    How to download and register?
+                                </span>
+                            </div> 
+                            <p class="about-us__paragraph">
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                            </p> 
+                            <div href="#" class="about-us__accordion-toggle" id="ac-1">
+                                <span class="accordion__plus">+</span>
+                                <span class="about-us__text">
+                                    How to download and register?
+                                </span>
+                            </div> 
+                            <p class="about-us__paragraph">
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                            </p> 
+                            <div href="#" class="about-us__accordion-toggle" id="ac-1">
+                                <span class="accordion__plus">+</span>
+                                <span class="about-us__text">
+                                    How to download and register?
+                                </span>
+                            </div> 
+                            <p class="about-us__paragraph">
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                            </p> 
+                                         
+                    </div>
+                    <div class="about-us__container">
+                            <figure class="about-us__img-container">
+                                <img src="https://preview.colorlib.com/theme/travel2/images/img_1.jpg" alt="image of the port in instanbul" class="about-us__img">
+                            </figure>
+                    </div>
+                    <div class="about-us__container">
+                            <figure class="about-us__img-container">
+                                <img src="https://preview.colorlib.com/theme/travel2/images/img_3.jpg" alt="boats on the shore of the water" class="about-us__img-shore">
+                            </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- gallery -->
+        <section class="gallery">
+            <div class="container">
+                <div class="row grid grid-gap-2 grid-column-xl-2 grid-column-md-1">
+                    <figure class="gallery__img-container">
+                        <img src="https://preview.colorlib.com/theme/travel2/images/slider-2.jpg" alt="imag of houses by seaside" class="gallery__img">
+                    </figure>
+                    <article class="gallery__text">
+                        <h2 class="gallery__title">
+                            Gallery
+                        </h2>
+                        <div class="hr__line"></div>
+                        <p class="gallery__paragraph">
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean
+                        </p>
+                        <p class="gallery__paragraph">
+                            When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.
+                        </p>
+                    </article>
+                </div>
+            </div>
+
+        </section>
+        <!-- team -->
+        <section class="team">
+            <div class="container">
+                <div class="team__text-box text--center">
+                    <h2 class="team__title mb-1">Team</h2>
+                    <div class="hr__line"></div>
+                    <p class="team__paragraph mt-1">
+                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                    </p>
+                </div>
+                <div class="row grid grid-gap-2 grid-column-xl-4 grid-column-md-2 grid-column-sm-1 mt-4">
+                    <div class="team__card">
+                        <figure class="team__img-container">
+                            <img src="https://preview.colorlib.com/theme/travel2/images/person_1.jpg" alt="James Watsen Co Founder" class="team__img">
+                            <figcaption class="team__img-caption">
+                                <span class="team__member-name">
+                                    James Watson
+                                </span>
+                                <span class="team__member-position">
+                                    Co-Founder & CEO
+                                </span>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="team__card">
+                        <figure class="team__img-container">
+                            <img src="https://preview.colorlib.com/theme/travel2/images/person_2.jpg" alt="Carla Aneta Designer" class="team__img">
+                            <figcaption class="team__img-caption">
+                                <span class="team__member-name">
+                                    Carla Aneta
+                                </span>
+                                <span class="team__member-position">
+                                    Designer
+                                </span>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="team__card">
+                        <figure class="team__img-container">
+                            <img src="https://preview.colorlib.com/theme/travel2/images/person_4.jpg" alt="Michelle Alison UI/UX designer" class="team__img">
+                            <figcaption class="team__img-caption">
+                                <span class="team__member-name">
+                                    James Watson
+                                </span>
+                                <span class="team__member-position">
+                                    UI/UX Designer
+                                </span>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="team__card">
+                        <figure class="team__img-container">
+                            <img src="https://preview.colorlib.com/theme/travel2/images/person_3.jpg" alt="Jahongir Rahimov Lead Developer" class="team__img">
+                            <figcaption class="team__img-caption">
+                                <span class="team__member-name">
+                                    Jahongir Rahimov
+                                </span>
+                                <span class="team__member-position">
+                                    Lead Developer
+                                </span>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+       <!-- footer -->
+       <footer class="footer">
+        <div class="container">
+            <div class="row grid grid-column-md-2 grid-column-sm-1 grid-gap-2">
+                <div class="footer__about-travel">
+                    <h3 class="footer__title">
+                        About Colorlib
+                    </h3>
+                    <p class="footer__paragraph">
+                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                    </p>
+                    <ul class="footer__social-list flex">
+                        <li class="footer__social-item">
+                            <a href="#" class="footer__social-link">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="#" class="footer__social-link">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="#" class="footer__social-link">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__menu">
+                    <h3 class="footer__title">Pages</h3>
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item">
+                            <a href="index.html" class="footer__menu-link">
+                                Home
+                            </a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="services.html" class="footer__menu-link">
+                                Services
+                            </a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="about-us.html" class="footer__menu-link">
+                                About
+                            </a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="contact.html" class="footer__menu-link">
+                                Contact Us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__menu">
+                    <h3 class="footer__title">Pages</h3>
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item">
+                            <a href="index.html" class="footer__menu-link">
+                                Home
+                            </a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="services.html" class="footer__menu-link">
+                                Services
+                            </a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="about-us.html" class="footer__menu-link">
+                                About
+                            </a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="contact.html" class="footer__menu-link">
+                                Contact Us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__contact-info">
+                    <h3 class="footer__title">
+                        Contact
+                    </h3>
+                    <ul class="footer__contact-list">
+                        <li class="footer__contact-item">
+                            <i class="fa fa-envelope pr-1" aria-hidden="true"></i>
+                            <a href="#" class="footer__contact-link">
+                                <address class="footer__email-address">
+                                    info@Colorlib
+                                </address>
+                            </a>
+                        </li>
+                        <li class="footer__contact-item">
+                            <i class="fa fa-phone pr-1" aria-hidden="true"></i>
+                            <a href="#" class="footer__contact-link">
+                                
+                                <address class="footer__phone-num">
+                                    +1 222 212 3819
+                                </address>
+                            </a>
+                        </li>
+                        <li class="footer__contact-item">
+                            <i class="fa fa-map-marker pr-1" aria-hidden="true"></i>
+                            <a href="#" class="footer__contact-link">
+                                
+                                <address class="footer__location">
+                                    43 Raymouth Rd. Baltemoer, London 3910
+                                </address>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__copyright-and-terms flex flex--justify-content-between">
+                <small class="footer__copyright">
+                    Copyright ©2021 All rights reserved | This template is made with 
+                    <span class="footer__hearts-red">&hearts;</span>  by Colorlib
+                </small>
+                <ul class="footer__terms-privacy-list flex">
+                    <li class="footer__terms-privacy-item mr-1">
+                        <a href="#" class="footer__terms-privacy-link">
+                            Privacy
+                        </a>
+                    </li>
+                    <li class="footer__terms&privacy-item">
+                        <a href="#" class="footer__terms-privacy-link">
+                            Terms
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </footer>
+    <script async src="index.js"></script>
+</body>
+</html>

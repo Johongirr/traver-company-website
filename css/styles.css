@@ -66,6 +66,8 @@ a {
 }
 fieldset {
     border: none;
+    padding: 0;
+    margin: 0;
 }
 li {
     list-style: none;
@@ -552,12 +554,169 @@ img {
     background-color: var(--white);
     color: var(--primary-color);
 }
+/* ================================================== Contact Us Page ==================================================================== */
+#contact-img {
+    background: url("https://images.unsplash.com/photo-1545167496-534a7d21d6a2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1010&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact {
+    margin-top: 2.5rem;
+}
+.contact .contact__title {
+    font-size: 2rem;
+    font-family: var(--font-family-title);
+}
+.contact .contact__form-input, .contact__form-textarea {
+    display: block;
+    padding: .3rem;
+    width: 100%;
+}
+ 
+ 
+.contact label[for="firstname"], label[for="lastname"] {
+    flex-basis: 100%;
+}
+.contact label {
+    padding-bottom: .4rem;
+}
+.contact input:focus {
+    outline-color: none;
+}
+.contact .contact__form-textarea {
+    margin: 0;
+    width: 100%;
+    height: 10rem;
+    resize: none;
+    overflow: hidden;
+}
+.contact .contact__address-container {
+    padding-right: 5rem;
+}
+.contact .contact__address-icon {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: 1px solid var(--light-gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact address {
+    font-size: 1.1rem;
+    font-weight: 900;
+}
 
 
-/* footer */
+/* contact footer */
+.contact-footer {
+    margin-top: 3rem;
+    background-color: var(--light-gray);
+}
+
+/* ========================================================== About Us ================================================================ */
+#about-us-img {
+    background-blend-mode: multiply;
+    background: url("https://images.unsplash.com/photo-1554774853-b415df9eeb92?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"),
+                linear-gradient(#777, #999);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* about us */
+.about-us {
+    margin-top: 10rem;
+}
+.about-us, .about-us__text-box {
+    margin-top: 5rem;
+}
+.about-us .hr__line {
+    margin: 0;
+}
+.about-us .about-us__accordion-toggle {
+    cursor: pointer;
+    color: #212529;
+    margin-bottom: 1rem;
+}
+.about-us .about-us__paragraph {
+    margin-bottom: 1.5rem;
+    font-size: .9rem;
+    background-color: var(--light-gray);
+    padding: 1rem;
+    transition: all .5s ease-in;
+    display: none;
+}
+.about-us .accordion__plus {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-right: .6rem;
+}
+
+.about-us .ac-active {
+    color: var(--primary-color);
+}
+.about-us .mt-8 {
+    margin-top: 6.6rem;
+}
+.about-us .about-us__text-box {
+    position: relative;
+    top: 7rem;
+}
+
+/* gallery */
+.gallery {
+    margin-top: 10rem;
+}
+.gallery .gallery__title {
+    margin-bottom: 1rem;
+}
+.gallery .hr__line {
+    margin: 0;
+}
+.gallery .gallery__paragraph {
+    margin-top: 1.5rem;
+}
+
+
+/* team */
+.team {
+    margin-top: 10rem;
+}
+.team .team__text-box {
+    width: 90%;
+    max-width: 40rem;
+    margin: 0 auto;
+}
+.team .team__img-container {
+    background-color: var(--light-gray);
+}
+.team .team__img-caption {
+    padding: 1.5rem 1rem;
+}
+.team .team__member-name {
+    display: block;
+    font-size: 1.1rem;
+}
+
+/* ============================================================ Services ============================================================== */
+.special-offers h3 {
+    font-family: var(--font-family-title);
+    color: var(--secondary-color);
+}
+.special-offers .special-offers__paragraph {
+    font-size: .9rem;
+}
+
+
+
+/* home footer */
 .footer {
+    margin-top: 10rem;
+    background-color: var(--light-gray);
     padding: 5rem 0;
 }
+
 .footer .grid {
     grid-template-columns: 2fr 1fr 1fr 2fr;
 }
@@ -710,6 +869,9 @@ img {
     .footer .grid {
         grid-template-columns: 1fr;
     } 
+    .popular-destination {
+        margin-top: 20rem;
+    }
     .popular-destination .card-2 {
         display: none;
     }
@@ -721,7 +883,7 @@ img {
 
 @media(max-width: 560px){
     .header .header__text-box {
-        padding: 15% 0 0 0 ;
+        padding: 25% 0 0 0 ;
     }
     .contact-us {
         padding: 2rem 0;

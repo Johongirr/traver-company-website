@@ -59,3 +59,21 @@ collapseBtn1.addEventListener('click', toggleSubMenu1);
 collapseBtn2.addEventListener('click', toggleSubMenu2);
 openMenuBtn.addEventListener('click', toggleMenu);
 
+const accordionToggleBtns = document.querySelectorAll('.about-us__accordion-toggle');
+
+accordionToggleBtns.forEach(toggleBtn => toggleBtn.addEventListener('click', (e)=>{
+   const el = e.target.parentElement;
+   const plusBtn = el.querySelector('.accordion__plus');
+   console.log(plusBtn);
+   if(!el.classList.contains('ac-active')){
+        el.nextElementSibling.style.display = 'block';
+        plusBtn.textContent = '-';
+        el.classList.add('ac-active');
+   } else {
+        el.nextElementSibling.style.display = 'none';
+        plusBtn.textContent = '+'
+        el.classList.remove('ac-active');
+   }
+   
+    
+}));

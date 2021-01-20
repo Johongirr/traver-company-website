@@ -31,6 +31,9 @@
     .mb-5 {
         margin-bottom: 5rem;
     }
+    .mb-0 {
+        margin-bottom: 0;
+    }
     
     /* margins left */
     .ml-1 {
