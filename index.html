@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/uitilities.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -204,15 +205,15 @@
                                 <option value="Azarbaijan">Azarbaijan</option>
                             </select>
                         </div>
-                        <div class="form-control flex">
+                        <div class="form-control flex flex-wrap-sm">
                             <input type="date" name="date" value="2021-01-22" required > 
                             <span>/</span>
                             <input type="date" name="date" value="2021-01-23" required> 
                         </div>
                         <div class="form-control">
-                            <input type="number" name="amount" placeholder="Enter # of People">
+                            <input type="number" name="amount" placeholder="Enter # of People" required>
                         </div>
-                        <button class="header__form btn">
+                        <button class="header__form-btn btn">
                             Search
                         </button>
                     </div>
@@ -225,33 +226,181 @@
         <!-- popular destination -->
         <section class="popular-destination">
             <div class="container">
-                <div class="row grid grid-column-xl-3">
-                    <div href="#" class="popular-destination__card card"></div>
-                    <div href="#" class="popular-destination__card card"></div>
-                    <div href="#" class="popular-destination__card card"></div>
+                <h2 class="popular-destination__title title-box">
+                    Populare Destination
+                </h2>
+                <span class="arrow-left">&#129044;</span>
+                <span class="arrow-right">&#129046;</span>
+                <div class="hr__line"></div>
+                <div class="row grid grid-gap-1">
+                    <div href="#" class="popular-destination__card card-1">
+                        <a href="#" class="popular-destination__link">
+                            <img src="https://preview.colorlib.com/theme/travel2/images/img_3.jpg" class="active popular-destination__img" alt="Kaafu atali malidves ">
+                            <div class="popular-destination__text-box">
+                                <h3>Kaafu Atoli</h3>
+                                <address class="popular-destination__location ">
+                                    Maldives
+                                </address>
+                            </div>
+                        </a>
+                    </div>
+                    <div href="#" class="popular-destination__card card-2">
+                         <a href="#" class="popular-destination__link">
+                            <img src="https://preview.colorlib.com/theme/travel2/images/img_1.jpg" class="popular-destination__img" alt="Kaafu atali malidves ">
+                            <div class="popular-destination__text-box">
+                                <h3>Kaafu Atoli</h3>
+                                <address class="popular-destination__location ">
+                                    Maldives
+                                </address>
+                            </div>
+                        </a>
+                    </div>
+                    <div href="#" class="popular-destination__card card-3">
+                         <a href="#" class="popular-destination__link">
+                            <img src="https://preview.colorlib.com/theme/travel2/images/img_2.jpg" class="popular-destination__img" alt="Kaafu atali malidves ">
+                            <div class="popular-destination__text-box">
+                                <h3>Kaafu Atoli</h3>
+                                <address class="popular-destination__location ">
+                                    Maldives
+                                </address>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="popular-destination__slide-circles flex flex--justify-content-center mt-1">
+                    <div class="popular-destination__circle active"></div>
+                    <div class="popular-destination__circle"></div>
+                    <div class="popular-destination__circle"></div>
                 </div>
             </div>
         </section>
         <!-- special offers and discounts -->
         <section class="special-offers">
             <div class="container">
+                <div class="special-offers__text-box text--center">
+                    <h2 class="special-offers__title title-box mb-1">
+                        Special offers & Discounts
+                    </h2>
+                    <div class="hr__line"></div>
+                    <p class="special-offers__paragrpaph mt-2 mb-5">
+                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                    </p>
+                </div>
                 <div class="row grid grid-column-xl-4 grid-column-md-2 grid-gap-2">
-                    <div class="special-offers__card"></div>
-                    <div class="special-offers__card"></div>
-                    <div class="special-offers__card"></div>
-                    <div class="special-offers__card"></div>
+                    <div class="special-offers__card">
+                        <figure class="special-offers__img-container">
+                            <a href="#" class="special-offers__img-link">
+                                <img src="https://preview.colorlib.com/theme/travel2/images/img_3.jpg" alt="Kaafe atoll Island in Maldives" class="special-offers__img">
+                            </a>
+                        </figure>
+                        <div class="special-offers__trip-price">
+                            <div class="row flex flex--justify-content-between">
+                                <span class="special-offers__location">
+                                    Kaafe Atoll
+                                </span>
+                                <span class="special-offers__price">
+                                   <sup>$</sup>520
+                                </span>
+                            </div>
+       
+                                <address class="special-offers__address"> 
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i> 
+                                    Maldives
+                                </address>
+                        </div>
+                    </div>
+                    <div class="special-offers__card">
+                        <figure class="special-offers__img-container">
+                            <a href="#" class="special-offers__img-link">
+                                <img src="https://preview.colorlib.com/theme/travel2/images/img_1.jpg" alt="Kaafe atoll Island in Maldives" class="special-offers__img">
+                            </a>
+                        </figure>
+                        <div class="special-offers__trip-price">
+                            <div class="row flex flex--justify-content-between">
+                                <span class="special-offers__location">
+                                    The White City
+                                </span>
+                                <span class="special-offers__price">
+                                   <sup>$</sup>600
+                                </span>
+                            </div>
+       
+                                <address class="special-offers__address"> 
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i> 
+                                    Greece
+                                </address>
+                        </div>
+                    </div>
+                    <div class="special-offers__card">
+                        <figure class="special-offers__img-container">
+                            <a href="#" class="special-offers__img-link">
+                                <img src="https://preview.colorlib.com/theme/travel2/images/img_2.jpg" alt="Kaafe atoll Island in Maldives" class="special-offers__img">
+                            </a>
+                        </figure>
+                        <div class="special-offers__trip-price">
+                            <div class="row flex flex--justify-content-between">
+                                <span class="special-offers__location">
+                                    Byodo-In Temple
+                                </span>
+                                <span class="special-offers__price">
+                                   <sup>$</sup>1020
+                                </span>
+                            </div>
+       
+                                <address class="special-offers__address"> 
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i> 
+                                    USA
+                                </address>
+                        </div>
+                    </div>
+                    <div class="special-offers__card">
+                        <figure class="special-offers__img-container">
+                            <a href="#" class="special-offers__img-link">
+                                <img src="https://preview.colorlib.com/theme/travel2/images/img_4.jpg" alt="Kaafe atoll Island in Maldives" class="special-offers__img">
+                            </a>
+                        </figure>
+                        <div class="special-offers__trip-price">
+                            <div class="row flex flex--justify-content-between">
+                                <span class="special-offers__location">
+                                    Arabische Emiraten
+                                </span>
+                                <span class="special-offers__price">
+                                   <sup>$</sup>1520
+                                </span>
+                            </div>
+       
+                                <address class="special-offers__address"> 
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i> 
+                                    UAE
+                                </address>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </section>
         <!-- offer preview -->
         <section class="offer-preview">
             <div class="container">
-                <div class="row grid grid-column-xl-2 grid-gap-1 px-4">
+                <div class="row grid grid-column-xl-2 grid-column-lg-1 grid-gap-1">
                     <article class="offer-preview__text">
-
+                        <h2 class="offer-preview__title">
+                            <span>
+                                We Travel Not To Escape Life But for Life not to Escape Us
+                            </span>
+                        </h2>
+                        <p class="offer-preview__paragraph mt-3">
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                        </p>
+                        <p class="offer-preview__paragraph mt-2">
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                        </p>
+                        <button class="offer-preview__btn mt-2 btn ">
+                            Get Started
+                        </button>
                     </article>
-                    <figure class="offer-preview__video">
-
+                    <figure class="offer-preview__img-container">
+                        <img src="https://preview.colorlib.com/theme/travel2/images/img_1.jpg" alt="Image of Hawai" class="offer-preview__img">
                     </figure>
                 </div>
             </div>
@@ -259,25 +408,76 @@
         <!-- stats -->
         <section class="stats">
             <div class="container">
-                <div class="row flex flex-wrap-md">
-                    <div class="stats__output"></div>
-                    <div class="stats__output"></div>
-                    <div class="stats__output"></div>
-                    <div class="stats__output"></div>
+                <div class="row flex flex-wrap-md py-3 flex--justify-content-center-sm">
+                    <div class="stats__output">
+                        <output class="stats__travels-count stats__output-amount">9,313</output>
+                        <span class="stats__travels"># of Travels</span>
+                    </div>
+                    <div class="stats__output">
+                         <output class="stats__clients-count stats__output-amount">8,492</output>
+                        <span class="stats__clients"># of Clients</span>
+                    </div>
+                    <div class="stats__output">
+                         <output class="stats__employees-count stats__output-amount">100</output>
+                        <span class="stats__employees"># of Employees</span>
+                    </div>
+                    <div class="stats__output">
+                         <output class="stats__countries-count stats__output-amount">120</output>
+                        <span class="stats__countries"># of Countries</span>
+                    </div>
                 </div>
             </div>
         </section>
         <!-- services -->
         <section class="services">
             <div class="container">
+                <div class="services__text-box">
+                    <h2 class="services__title mb-1">Our Services</h2>
+                    <div class="hr__line"></div>
+                    <p class="services__paragraph mt-2 mb-5">
+                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                    </p>
+                </div>
                 <div class="row grid services__diff-col grid-column-md-1  grid-gap-2">
                     <div class="services__bg-img"></div>
                     <div class="services__info">
                         <div class="row grid grid-column-xl-2 grid-gap-2">
-                            <div class="services__card"></div>
-                            <div class="services__card"></div>
-                            <div class="services__card"></div>
-                            <div class="services__card"></div>
+                            <div class="services__card">
+                                <i class="fa fa-plane fa-4x" aria-hidden="true"></i>
+                                <h3 class="services__subtitle">
+                                    Easy & Free Transport
+                                </h3>
+                                <p class="services__paragraph">
+                                    Even the all-powerful Pointing has no control about the blind texts.
+                                </p>
+                            </div>
+                            <div class="services__card">
+                                <i class="fa fa-plane fa-4x" aria-hidden="true"></i>
+                                <h3 class="services__subtitle">
+                                    Easy & Free Transport
+                                </h3>
+                                <p class="services__paragraph">
+                                    Even the all-powerful Pointing has no control about the blind texts.
+                                </p>
+                            </div>
+                            <div class="services__card">
+                                <i class="fa fa-plane fa-4x" aria-hidden="true"></i>
+                                <h3 class="services__subtitle">
+                                    Easy & Free Transport
+                                </h3>
+                                <p class="services__paragraph">
+                                    Even the all-powerful Pointing has no control about the blind texts.
+                                </p>
+                            </div>
+                            <div class="services__card">
+                                <i class="fa fa-plane fa-4x" aria-hidden="true"></i>
+                                <h3 class="services__subtitle">
+                                    Easy & Free Transport
+                                </h3>
+                                <p class="services__paragraph">
+                                    Even the all-powerful Pointing has no control about the blind texts.
+                                </p>
+                            </div>
                         </div>
                         
                     </div>
@@ -288,30 +488,147 @@
         <!-- contact us -->
         <footer class="contact-us">
             <div class="contact-us__text-box">
-
+                <h2 class="contact-us__title">
+                    Plan your travel now and get in touch with us.
+                </h2>
+                <p class="contact-us__paragraph">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, fugit?
+                </p>
+                <button class="btn contact-us__btn contact-us__btn--outline">
+                    Get in Touch
+                </button>
             </div>
         </footer>
     </main>
     <!-- footer -->
     <footer class="footer">
         <div class="container">
-            <div class="row grid grid-column-xl-3 grid-column-md-2 grid-column-sm-1 grid-gap-2">
+            <div class="row grid grid-column-md-2 grid-column-sm-1 grid-gap-2">
                 <div class="footer__about-travel">
-
+                    <h3 class="footer__title">
+                        About Colorlib
+                    </h3>
+                    <p class="footer__paragraph">
+                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                    </p>
+                    <ul class="footer__social-list flex">
+                        <li class="footer__social-item">
+                            <a href="#" class="footer__social-link">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="#" class="footer__social-link">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="#" class="footer__social-link">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
                 <div class="footer__menu">
-
+                    <h3 class="footer__title">Pages</h3>
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">
+                                Home
+                            </a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">
+                                Services
+                            </a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">
+                                About
+                            </a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">
+                                Contact Us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__menu">
+                    <h3 class="footer__title">Pages</h3>
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">
+                                Home
+                            </a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">
+                                Services
+                            </a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">
+                                About
+                            </a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">
+                                Contact Us
+                            </a>
+                        </li>
+                    </ul>
                 </div>
                 <div class="footer__contact-info">
-
+                    <h3 class="footer__title">
+                        Contact
+                    </h3>
+                    <ul class="footer__contact-list">
+                        <li class="footer__contact-item">
+                            <i class="fa fa-envelope pr-1" aria-hidden="true"></i>
+                            <a href="#" class="footer__contact-link">
+                                <address class="footer__email-address">
+                                    info@Colorlib
+                                </address>
+                            </a>
+                        </li>
+                        <li class="footer__contact-item">
+                            <i class="fa fa-phone pr-1" aria-hidden="true"></i>
+                            <a href="#" class="footer__contact-link">
+                                
+                                <address class="footer__phone-num">
+                                    +1 222 212 3819
+                                </address>
+                            </a>
+                        </li>
+                        <li class="footer__contact-item">
+                            <i class="fa fa-map-marker pr-1" aria-hidden="true"></i>
+                            <a href="#" class="footer__contact-link">
+                                
+                                <address class="footer__location">
+                                    43 Raymouth Rd. Baltemoer, London 3910
+                                </address>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div class="footer__copyright-and-terms">
+            <div class="footer__copyright-and-terms flex flex--justify-content-between">
                 <small class="footer__copyright">
-
+                    Copyright ©2021 All rights reserved | This template is made with 
+                    <span class="footer__hearts-red">&hearts;</span>  by Colorlib
                 </small>
-                <ul class="footer__terms-list">
-
+                <ul class="footer__terms-privacy-list flex">
+                    <li class="footer__terms-privacy-item mr-1">
+                        <a href="#" class="footer__terms-privacy-link">
+                            Privacy
+                        </a>
+                    </li>
+                    <li class="footer__terms&privacy-item">
+                        <a href="#" class="footer__terms-privacy-link">
+                            Terms
+                        </a>
+                    </li>
                 </ul>
 
             </div>
